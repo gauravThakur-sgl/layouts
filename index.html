@@ -8,52 +8,123 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body class="font-mono bg-[#433878] text-black">
-    <div class="h-screen w-full flex flex-col justify-center items-center">
-      <div class="flex flex-col justify-center items-center">
-        <div class="w-full">
-          <div
-            class=" m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold hidden 2xl:block"
-          >
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
-          </div>
+    <div class="flex flex-col justify-center items-center">
+      <p class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">Single Screen</p>
+      <div
+        class="h-1/2 w-full flex flex-col justify-center items-center mx-2"
+      >
+        <div class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
         </div>
+      </div>
+    </div>
+
+    <!-- Dual Screen Setup-->
+    <div class=" mt-48 flex flex-col justify-center items-center">
+      <p class="-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">Dual Screen</p>
+      <div class="mt-6 h-1/2 w-full flex flex-col justify-center items-center">
         <div class="flex flex-col md:flex-row">
           <div
-            class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
+            class="w-full m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </div>
           <div
-            class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold hidden md:block"
+            class="w-full m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
           >
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
-          </div>
-          <div
-            class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold hidden lg:block"
-          >
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
-          </div>
-          <div
-            class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold hidden xl:block"
-          >
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
           </div>
         </div>
       </div>
     </div>
-    <!-- 2nd layout -->
+
+    <!-- Triple Screen -->
+    <div class="h-screen w-full mt-48 flex flex-col justify-center items-center">
+      <p class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">
+        Triple Screen
+      </p>
+      <div
+      class="flex flex-col md:flex-row justify-center items-center"
+    >
+      <div class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+      <div class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+      <div class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Using Flexbox -->
+    <div class="h-screen w-full flex flex-col justify-center items-center">
+      <div class="flex flex-col justify-center items-center">
+        <div class="w-full">
+          <div
+            class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
+          >
+            <div class="flex justify-center items-center">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col">
+            <div
+              class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </div>
+            <div
+              class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
+            >
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div
+              class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
+            >
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div
+              class="m-2 p-4 bg-[#E4B1F0] border rounded-lg shadow-lg font-bold"
+            >
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Using Grid layout -->
   </body>
 </html>
